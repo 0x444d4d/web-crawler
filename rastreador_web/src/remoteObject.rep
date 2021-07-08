@@ -1,0 +1,5 @@
+class IndexingService
+{
+    SLOT(unsigned request(const QUrl &url, int depth));
+    SIGNAL(response(const QUrl &url, const QList<QUrl> &urlList));
+};
